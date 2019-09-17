@@ -38,8 +38,8 @@
     "develop": "gatsby develop",
     "format": "prettier --write \"**/*.{js,jsx,json,md}\"",
     "lint": "eslint src --ignore-pattern node_modules --fix",
-    "start": "npm run develop",
-    "serve": "gatsby build && npm run api",
+    "start": "gatsby build && npm run api",
+    "serve": "npm run develop",
     "test": "cross-env NODE_ENV=testing PORT=6666 tape test/*-test.js ./test/**/*-test.js | tap-spec"
   },
   "repository": {
