@@ -1,6 +1,9 @@
 # Begin basic Gatsby app + API
 
+$BADGE
+
 [Gatsby](https://gatsbyjs.org)'s starter app, extended by [Begin](https://begin.com)-based API endpoints.
+
 
 ## Getting started
 
