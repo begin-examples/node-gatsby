@@ -1,9 +1,8 @@
-# Begin basic Gatsby app + API
+<img src="https://static.begin.app/node-gatsby/readme-banner.png" width="561">
 
-$BADGE
+\$BADGE
 
 [Gatsby](https://gatsbyjs.org)'s starter app, extended by [Begin](https://begin.com)-based API endpoints.
-
 
 ## Deploy your own
 
@@ -11,45 +10,46 @@ $BADGE
 
 Deploy your own clone of this app to Begin!
 
-
 ## Getting started
 
 ### Project setup
+
 ```
 npm install
 ```
 
-
 ### Start the local dev server
+
 ```
 npm start
 ```
 
-
 ### Compile & hot-reload for development
+
 ```
 npm run serve
 ```
 
-  Your site is now running at `http://localhost:8000`!
+Your site is now running at `http://localhost:8000`!
 
-  _Note: You'll also see a second link: _`http://localhost:8000/___graphql`_. This is a tool you can use to experiment with querying your data. Learn more about using this tool in the [Gatsby tutorial](https://www.gatsbyjs.org/tutorial/part-five/#introducing-graphiql)._
+_Note: You'll also see a second link: _`http://localhost:8000/___graphql`_. This is a tool you can use to experiment with querying your data. Learn more about using this tool in the [Gatsby tutorial](https://www.gatsbyjs.org/tutorial/part-five/#introducing-graphiql)._
 
     Open the `my-default-starter` directory in your code editor of choice and edit `src/pages/index.js`. Save your changes and the browser will update in real time!
 
 ### Compile for production
+
 ```
 npm run build
 ```
 
-
 ### Lint & fix files
+
 ```
 npm run lint
 ```
 
-
 ### Run your tests
+
 ```
 npm run test
 ```
@@ -104,8 +104,8 @@ Looking for more guidance? Full documentation for Gatsby lives [on the website](
 
 - **To dive straight into code samples, head [to our documentation](https://www.gatsbyjs.org/docs/).** In particular, check out the _Guides_, _API Reference_, and _Advanced Tutorials_ sections in the sidebar.
 
-
 ## Begin Reference
+
 - [Quickstart](https://docs.begin.com/en/guides/quickstart/) - basics on working locally, project structure, deploying, and accessing your Begin app
 - [Creating new routes](https://docs.begin.com/en/functions/creating-new-functions) - basics on expanding the capabilities of your app
 
