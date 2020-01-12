@@ -1,6 +1,8 @@
 <img src="https://static.begin.app/node-gatsby/readme-banner.png" width="561">
 
-\$BADGE
+[![GitHub CI status](https://github.com/smallwins/begin/workflows/Node%20CI/badge.svg)](https://github.com/smallwins/begin/actions?query=workflow%3A%22Node+CI%22)
+
+---
 
 [Gatsby](https://gatsbyjs.org)'s starter app, extended by [Begin](https://begin.com)-based API endpoints.
 
