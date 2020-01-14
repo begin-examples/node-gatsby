@@ -1,6 +1,6 @@
-<img src="https://static.begin.app/node-gatsby/readme-banner.png" width="561">
+<img src="https://static.begin.app/node-gatsby/readme-banner.png" width="814">
 
-\$BADGE
+$BADGE
 
 [Gatsby](https://gatsbyjs.org)'s starter app, extended by [Begin](https://begin.com)-based API endpoints.
 
