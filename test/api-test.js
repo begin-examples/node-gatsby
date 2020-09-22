@@ -3,11 +3,10 @@ let tiny = require('tiny-json-http')
 let sandbox = require('@architect/sandbox')
 let base = 'http://localhost:6666'
 
-let end
-test('Start', async t => {
+test('Start the Sandbox', async t => {
   t.plan(1)
-  end = await sandbox.start()
-  t.ok(end, 'Sandbox started')
+  let result = await sandbox.start()
+  t.equal(result, 'Sandbox successfully started')
 })
 
 test('get /api', async t => {
@@ -25,15 +24,8 @@ test('get /api', async t => {
   }
 })
 
-test('End', t => {
+test('Shut down the Sandbox', async t => {
   t.plan(1)
-  end()
-  tiny.get({url: base},
-  function win (err, result) {
-    if (err) {
-      t.equal(err.code, 'ECONNREFUSED', 'Sandbox succssfully shut down')
-    } else {
-      t.fail('Sandbox did not shut down')
-    }
-  })
+  let result = await sandbox.end()
+  t.equal(result, 'Sandbox successfully shut down')
 })
