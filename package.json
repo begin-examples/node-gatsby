@@ -23,7 +23,7 @@
     "@architect/sandbox": "^2.0.1",
     "@begin/data": "^1.2.3",
     "cross-env": "^7.0.2",
-    "eslint": "^7.9.0",
+    "eslint": "^7.10.0",
     "prettier": "^2.1.2",
     "tap-spec": "^5.0.0",
     "tape": "^5.0.1",
