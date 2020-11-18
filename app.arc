@@ -2,6 +2,7 @@
 begin-app
 
 @static
+spa true
 
 @http
 get /api
