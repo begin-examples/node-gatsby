@@ -21,7 +21,7 @@
   },
   "devDependencies": {
     "@architect/sandbox": "^3.3.7",
-    "@begin/data": "^1.2.3",
+    "@begin/data": "^2.0.1",
     "cross-env": "^7.0.3",
     "eslint": "^7.21.0",
     "prettier": "^2.2.1",
