@@ -20,7 +20,7 @@
     "react-helmet": "^6.1.0"
   },
   "devDependencies": {
-    "@architect/sandbox": "^3.3.7",
+    "@architect/sandbox": "^3.5.1",
     "@begin/data": "^1.2.3",
     "cross-env": "^7.0.3",
     "eslint": "^7.21.0",
