@@ -1,5 +1,5 @@
 @app
-begin-app
+gatsby-app
 
 @static
 spa true
